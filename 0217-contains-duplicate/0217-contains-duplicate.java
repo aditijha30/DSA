@@ -5,7 +5,9 @@ class Solution {
             if(map.contains(x)){
                 return true;
             }
-            map.add(x);
+            else{
+                map.add(x);
+            }
         }
         return false;
     }
